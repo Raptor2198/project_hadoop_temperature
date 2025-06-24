@@ -1,0 +1,73 @@
+# Compiled class files
+*.class
+*.jar
+
+# Build directory
+# build/
+
+# Library directory (external dependencies)
+# lib/
+
+# Output files and generated content
+# output_graphs/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Large input data files (consider using Git LFS if needed)
+# input/*.csv
+
+# IDE files
+.idea/
+# .vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Hadoop/MapReduce temporary files
+_logs/
+logs/
+*.log
+
+# Maven (if used)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle (if used)
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+build.gradle.kts.compiled
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Ignorer le contenu des dossiers mais pas le dossier lui-même
+build/*
+!build/.gitkeep
+
+lib/*
+!lib/.gitkeep
+
+output_graphs/*
+!output_graphs/.gitkeep
